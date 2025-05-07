@@ -159,7 +159,9 @@ Fluxo Alternativo:
 
 PDF da Fase IV: [fase4.pdf](./fase4.pdf)
 
----
+# Diagrama de Sequência
+
+![Diagrama de Sequência](./diagramadesequencia.png)
 
 
 # Referências 
