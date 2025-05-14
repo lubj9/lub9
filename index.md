@@ -166,7 +166,7 @@ PDF da Fase IV: [fase4.pdf](./fase4.pdf)
 
 
 # Diagrama de Classes
-[Diagrama de Classes](./diagramadeclasses.png)
+![Diagrama de Classes](./diagramadeclasses.png)
 
 
 
