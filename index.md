@@ -14,7 +14,8 @@
 - [Diagrama de Atividades](#diagrama-de-atividades) 
 - [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 - [Descrição dos Casos de Uso](#descrição-dos-casos-de-uso)
-
+- [Diagrama de sequência](#diagrama-de-sequência)
+- [Diagrama de Classes](#diagrama-de-classes)
 ---
 
 # Autores
@@ -162,6 +163,7 @@ PDF da Fase IV: [fase4.pdf](./fase4.pdf)
 # Diagrama de Sequência
 
 ![Diagrama de Sequência](./diagramadesequencia.png)
+
 
 # Diagrama de Classes
 [Diagrama de Classes](./diagramadeclasses.png)
