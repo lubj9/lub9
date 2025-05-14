@@ -164,7 +164,7 @@ PDF da Fase IV: [fase4.pdf](./fase4.pdf)
 ![Diagrama de Sequência](./diagramadesequencia.png)
 
 # Diagrama de Classes
-[Diagrama de Classes](https://github.com/user-attachments/assets/bd041ccc-e4f7-477c-b725-ed75410a2125)
+[Diagrama de Classes](./diagramadeclasses.png)
 
 
 
