@@ -36,7 +36,7 @@ O sistema vai permitir cadastrar medicamentos e clientes, registrar vendas, cont
 # Análise de Requisitos Funcionais e Não-Funcionais
 
 Fase I - Análise de Requisitos
-**Requisitos Funcionais**
+1. **Requisitos Funcionais**
 1. Cadastro de medicamentos com nome, descrição, fabricante, lote, validade, quantidade e preço.
 2. Cadastro de clientes com nome, CPF, telefone e histórico de compras.
 3. Consulta de produtos disponíveis no estoque.
@@ -49,7 +49,7 @@ Fase I - Análise de Requisitos
 10. Geração de relatórios de clientes mais frequentes.
 11. Autenticação de usuários com perfis distintos.
 12. Permissões específicas para administradores: cadastrar produtos/clientes, gerar relatórios e consultar histórico.
-**Requisitos Não Funcionais**
+1. **Requisitos Não Funcionais**
 1. Interface gráfica amigável e de fácil uso.
 2. Disponibilidade em rede local para múltiplos usuários.
 3. Segurança via login e senha.
@@ -57,10 +57,10 @@ Fase I - Análise de Requisitos
 5. Backup automático semanal do banco de dados.
 6. Tempo de resposta inferior a 2 segundos para consultas e cadastros.
 7. Utilização de banco de dados relacional.
-**Atores do Sistema**
+1.**Atores do Sistema**
 - Atendente: realiza vendas e consulta produtos.
 - Administrador: cadastra produtos/clientes, gera relatórios e acessa o histórico completo.
-**Fluxo Típico do Sistema**
+1.**Fluxo Típico do Sistema**
 1. Cliente solicita medicamento.
 2. Atendente consulta disponibilidade.
 3. Se disponível, registra venda vinculando ao CPF do cliente.
@@ -93,18 +93,18 @@ Fase IV - Descrição dos Casos de Uso
 1. **Autenticar Usuário**
 Atores: Atendente, Administrador
 Descrição: Permite que o usuário entre no sistema com login e senha.
-Fluxo Principal:
+1. Fluxo Principal:
 1. Usuário informa login e senha.
 2. Sistema verifica credenciais.
 3. Se válidas, acesso é concedido com base no perfil.
-Fluxo Alternativo:
+4. Fluxo Alternativo:
 Se dados inválidos, exibir mensagem e solicitar nova tentativa.
 Pré-condição: Sistema deve estar iniciado.
 Pós-condição: Usuário autenticado e redirecionado ao menu principal.
 2. **Consultar Produto**
 Atores: Atendente
 Descrição: Permite verificar se um produto está disponível no estoque.
-Fluxo Principal:
+1. Fluxo Principal:
 1. Atendente acessa a opção 'Consultar Produto'.
 2. Digita nome ou código do produto.
 3. Sistema exibe informações e quantidade disponível.
@@ -113,28 +113,28 @@ Produto não encontrado -> exibe mensagem de erro.
 3. **Realizar Venda**
 Atores: Atendente
 Descrição: Registra a venda de produtos para um cliente.
-Fluxo Principal:
+1. Fluxo Principal:
 1. Atendente autentica-se.
-2. Consulta o(s) produto(s) no sistema.
+2. Consulta o(s) produto(s) no sistema
 3. Seleciona o cliente (ou realiza cadastro rápido). 4. Adiciona itens à venda.
 5. Finaliza a venda.
 6. Sistema atualiza estoque e gera cupom fiscal.
-Fluxo Alternativo:
+7. Fluxo Alternativo:
 -Produto fora de estoque -> exibe aviso e bloqueia venda. -Cliente não encontrado -> opção de novo cadastro.
 4. **Cadastrar Produto**
 Atores: Administrador
 Descrição: Permite o registro de novos produtos e medicamentos.
-Fluxo Principal:
+1. Fluxo Principal:
 1. Administrador autentica-se.
 2. Acessa tela de cadastro de produto.
 3. Preenche dados: nome, descrição, fabricante, lote, validade, estoque, preço.
 4. Confirma cadastro.
-Fluxo Alternativo:
+1. Fluxo Alternativo:
 Dados inválidos ou em branco -> sistema solicita correção.
 5. **Cadastrar Cliente**
 Atores: Administrador
 Descrição: Permite o registro de clientes.
-Fluxo Principal:
+1. Fluxo Principal:
 1. Administrador autentica-se.
 2. Acessa tela de cadastro de cliente.
 3. Preenche nome, CPF e telefone.
