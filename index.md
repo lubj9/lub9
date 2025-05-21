@@ -127,7 +127,8 @@ Descrição: Permite o registro de novos produtos e medicamentos.
 Fluxo Principal:
 1. Administrador autentica-se.
 2. Acessa tela de cadastro de produto.
-3. Preenche dados: nome, descrição, fabricante, lote, validade, estoque, preço. 4. Confirma cadastro.
+3. Preenche dados: nome, descrição, fabricante, lote, validade, estoque, preço.
+4. Confirma cadastro.
 Fluxo Alternativo:
 Dados inválidos ou em branco -> sistema solicita correção.
 5. **Cadastrar Cliente**
@@ -151,10 +152,11 @@ Fluxo Principal:
 7. **Gerar Relatórios**
 Atores: Administrador
 Descrição: Permite visualizar relatórios gerenciais.
- Fluxo Principal:
+Fluxo Principal:
 1. Administrador autentica-se.
 2. Acessa a opção de relatórios.
-3. Escolhe o tipo de relatório: diário, semanal, mensal, produtos mais vendidos, clientes frequentes. 4. Sistema gera o relatório solicitado.
+3. Escolhe o tipo de relatório: diário, semanal, mensal, produtos mais vendidos, clientes frequentes.
+4. Sistema gera o relatório solicitado.
 Fluxo Alternativo:
 -Nenhum dado para o período -> sistema informa ausência de dados.
 
