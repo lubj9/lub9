@@ -57,10 +57,10 @@ Fase I - Análise de Requisitos
 5. Backup automático semanal do banco de dados.
 6. Tempo de resposta inferior a 2 segundos para consultas e cadastros.
 7. Utilização de banco de dados relacional.
-1.**Atores do Sistema**
+1. **Atores do Sistema**
 - Atendente: realiza vendas e consulta produtos.
 - Administrador: cadastra produtos/clientes, gera relatórios e acessa o histórico completo.
-1.**Fluxo Típico do Sistema**
+1. **Fluxo Típico do Sistema**
 1. Cliente solicita medicamento.
 2. Atendente consulta disponibilidade.
 3. Se disponível, registra venda vinculando ao CPF do cliente.
