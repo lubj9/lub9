@@ -16,6 +16,7 @@
 - [Descrição dos Casos de Uso](#descrição-dos-casos-de-uso)
 - [Diagrama de sequência](#diagrama-de-sequência)
 - [Diagrama de Classes](#diagrama-de-classes)
+- [Diagrama de Estado](#diagrama-de-estado)
 ---
 
 # Autores
@@ -167,6 +168,10 @@ PDF da Fase IV: [fase4.pdf](./fase4.pdf)
 
 # Diagrama de Classes
 ![Diagrama de Classes](./diagramadeclasses.png)
+
+# Diagrama de Estado
+![Diagrama de Estado](./diagramadeestado.drawio.png)
+
 
 
 
